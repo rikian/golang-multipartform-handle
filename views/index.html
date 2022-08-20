@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Profile</h1>
+
+    <img style="max-width: 300px; max-height: 300px;" id="imgPrev" src=""/>
+
+    <form class="form-user" action="http://localhost:9091/" method="POST" enctype="multipart/form-data">
+        <input name="user-name" type="text" placeholder="name" required>
+        <input id="file-image" name="image" type="file" placeholder="image" required>
+        <input type="reset">
+        <input type="submit">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
